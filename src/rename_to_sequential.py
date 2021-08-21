@@ -51,7 +51,7 @@ class ImageRenamer():
         # Check target_dir
         if not is_dir(self.target_dir):
             logger.error(
-                'You must type a valid directory for TARGET DIRECTORY. (-t, --target_directory)'
+                'You must type a valid directory for TARGET DIRECTORY. (-t, --target_dir)'
             )
             is_valid = False
 
